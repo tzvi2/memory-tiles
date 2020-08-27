@@ -1,0 +1,42 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1020px;
+}
+
+.board {
+    font-size: 4.5em;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(172, 170, 170);
+    padding: 6px 0px;
+    min-width: 308px;
+}
+
+.score {
+    background-color: rgb(172, 170, 170);
+    width: 30%;
+    min-width: 84px;
+} 
+
+.square {
+    width: 23.5%;
+    height:0;
+    padding-bottom: 23.5%;
+    background-color: rgb(121, 120, 117);
+    color: rgb(121, 120, 117);
+    margin: 1.5px;
+}
+
+h1, h2 {
+    text-align: center;
+}
